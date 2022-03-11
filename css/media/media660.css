@@ -1,0 +1,368 @@
+@media screen and (max-width: 660px) {
+
+
+  /* first-block */
+
+  .header {
+    height: 700px;
+    background-position-y: -10px;
+  }
+
+  .design-left {
+    left: 0;
+    top: -87px;
+  }
+
+  .design-right {
+    top: 75px;
+  }
+
+  .header-box-logo {
+    display: none;
+  }
+
+  .headers-site {
+    width: 50%;
+    margin: 0;
+  }
+
+  .first-name-site {
+    width: 168px;
+    font-size: 14px;
+    line-height: 25px;
+    margin: 0;
+    font-family: 'Montserrat-Regular';
+  }
+
+  .contacts {
+    width: 50%;
+    font-family: 'Montserrat-Regular';
+  }
+
+  .orests-number,
+  .tarases-number {
+    font-size: 14px;
+    margin: 4px 0;
+  }
+
+  .name {
+    align-items: center;
+  }
+
+  .or,
+  .ta {
+    font-size: 14px;
+    margin: 4px 0;
+  }
+
+  .logo-box {
+    display: block;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo {
+    display: block;
+    width: 100px;
+  }
+
+  .icons {
+    margin: 0 auto;
+  }
+
+  .big-block-icons {
+    margin-top: -20px;
+  }
+
+  .block-icon-car1 {
+    margin: 6px;
+    width: 14%;
+  }
+
+  .icons-car {
+    width: 55px;
+  }
+
+  /* third-new-block */
+
+  .new_block_3 {
+    height: 1150px;
+  }
+
+  .new_block_3_header {
+    font-size: 20px;
+  }
+
+  .new_block_3_header_span {
+    font-size: 14px;
+  }
+
+  .assortment {
+    margin-top: 30px;
+  }
+
+  .card {
+    min-width: 46%;
+  }
+
+  .card h3 {
+    font-family: 'Montserrat-Bold';
+  }
+
+  .card.active a {
+    width: 90%;
+  }
+
+  /* third-new-block */
+
+
+
+  /* third-block */
+  .third-block {
+    height: 100%;
+  }
+
+  .all-offer {
+    margin-bottom: 20px;
+  }
+
+  .offer {
+    font-size: 20px;
+  }
+
+  .offer2 {
+    width: 85%;
+  }
+
+  .header-offer1,
+  .header-offer2 {
+    font-size: 16px;
+  }
+
+  .text-offer1,
+  .text-offer2 {
+    font-size: 14px;
+    margin: 0 0 10px 0;
+
+  }
+
+  /* third-block */
+
+  /* five-block */
+
+  .five-block {
+    height: 1270px;
+  }
+
+  .circle::after {
+    content: "";
+    display: block;
+    width: 42px;
+    height: 2px;
+    background-color: #E53862;
+    position: absolute;
+  }
+
+  .list-of-benefits {
+    width: 440px;
+    height: 1048px;
+    margin-top: 0px;
+  }
+
+  .benefits {
+    width: 420px;
+    height: 70px;
+    position: relative;
+  }
+
+  .box-and-text {
+    width: 420px;
+    height: 80px;
+    z-index: 2;
+  }
+
+  .circle {
+    position: absolute;
+    z-index: 1;
+    top: -56px;
+    left: 40%;
+  }
+
+  .circle::before {
+    content: "";
+    display: block;
+    width: 52px;
+    height: 2px;
+    background-color: #E53862;
+    position: absolute;
+    top: 31px;
+    left: -76px;
+  }
+
+  .header-five-block {
+    margin-top: 40px;
+  }
+
+  .seventeen-thousand-owners {
+    font-size: 20px;
+  }
+
+  .fourteen-days-in-box {
+    width: 414px;
+  }
+
+  .text-in-dandruff-box {
+    width: 394px;
+  }
+
+  .text-in-check-box {
+    width: 448px;
+  }
+
+  .text-in-person {
+    width: 388px;
+  }
+
+  .text-in-dollar {
+    width: 404px;
+  }
+
+  .text-in-hoors {
+    width: 455px;
+  }
+
+  .three-years-text-in-box {
+    height: 70px;
+  }
+
+  /* six block */
+
+  .six-block {
+    height: 990px;
+  }
+
+  .header-six-block-text {
+    width: 80%;
+    font-size: 20px;
+    border-bottom: 3px solid #E53862;
+  }
+
+  .list-how-we-work {
+    width: 100%;
+  }
+
+  .lists {
+    width: 98%;
+    align-self: center;
+  }
+
+  .item1-text1,
+  .item2-text2,
+  .item3-text3,
+  .item4-text4 {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .text-item1-list {
+    width: 90%;
+    height: 85px;
+    font-size: 12px;
+    line-height: 36px;
+  }
+
+  .text-item2-list {
+    width: 95%;
+    height: 85px;
+    font-size: 12px;
+    line-height: 28px;
+  }
+
+  .text-item3-list {
+    height: 85%;
+    font-size: 12px;
+    line-height: 32px;
+  }
+
+  .text-item4-list {
+    height: 40%;
+    font-size: 12px;
+    line-height: 40px;
+  }
+
+  /* six block */
+
+
+  /* eight-block */
+
+  .eight-block {
+    height: 440px;
+  }
+
+  .text-header-eight-block {
+    font-size: 20px;
+  }
+
+  .list-eight-block {
+    width: 100%;
+    margin-top: 28px;
+  }
+
+  .item1-text1-eight-block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    line-height: 30px;
+  }
+
+  .text-item1-eight-block {
+    width: 95%;
+    font-size: 15px;
+  }
+
+  .text-item2-eight-block {
+    font-size: 15px;
+  }
+
+  .item2-text2-eight-block {
+    width: 100%;
+    line-height: 30px;
+  }
+
+  .item1-icon1-eight-block,
+  .item2-icon2-eight-block {
+    width: 140px;
+    height: 140px;
+    background-size: 95px;
+  }
+
+  /* eight-block */
+
+  /* nine-block */
+  .text-logo-in-footer {
+    width: 74px;
+    height: 50px;
+    background-size: 70px;
+  }
+
+  .icon-logo-in-footer {
+    width: 50px;
+    height: 50px;
+    background-size: 50px;
+    background-repeat: no-repeat;
+  }
+
+  .soliarevich {
+    font-size: 14px;
+  }
+
+  .warning {
+    font-size: 14px;
+  }
+
+  .icons-made {
+    font-size: 14px;
+  }
+}

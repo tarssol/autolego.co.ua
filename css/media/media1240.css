@@ -1,0 +1,387 @@
+@media screen and (max-width: 1240px) {
+
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  /* header */
+  .header {
+    width: 100%;
+  }
+
+  .header-box-logo {
+    width: 28%;
+  }
+
+  .headers-site {
+    margin-right: 10px;
+  }
+
+  .first-name-site {
+    width: 275px;
+    font-size: 20px;
+    line-height: 2;
+  }
+
+  .icons {
+    margin-top: 220px;
+  }
+
+  .block-icon-car1 {
+    margin: 10px;
+  }
+
+  /* header */
+
+  /* second-block */
+  .second-block {
+    width: 100%;
+    height: 1200px;
+  }
+
+  .look-price {
+    padding: 30px 0 30px 0;
+    font-size: 26px;
+  }
+
+  .sale {
+    width: 50%;
+    margin-top: 200px;
+  }
+
+  .send-post {
+    letter-spacing: 0;
+    font-size: 26px;
+  }
+
+  .look-availability {
+    padding: 20px 0px 60px 0px;
+  }
+
+
+  .have-sale {
+    padding: 10px 0px 40px 0px;
+  }
+
+  .form-information {
+    width: 400px;
+    margin-top: 50px;
+  }
+
+  .header-application {
+    width: 100%;
+  }
+
+  .text-application {
+    width: 100%;
+  }
+
+  .name-of-the-spare-part {
+    width: 90%;
+  }
+
+  textarea[placeholder] {
+    padding: 15px 15px 15px 15px;
+    font-size: 13px;
+  }
+
+  .input-style {
+    width: 90%;
+    font-size: 13px;
+  }
+
+  /* second-block */
+
+  /* third-new-block */
+
+  .new_block_3 {
+    height: 630px;
+  }
+
+  .assortment {
+    margin: 10px 0 20px 0;
+  }
+
+  .new_block_3_box1 {
+    width: 800px;
+    margin-top: 30px;
+  }
+
+  .new_block_3_header {
+    font-size: 30px;
+  }
+
+  .new_block_3_header_span {
+    font-size: 28px;
+  }
+
+  .new_block_3_header::after {
+    width: 100%;
+    left: 0;
+  }
+
+  .card {
+    background-size: 75px;
+    height: 280px;
+  }
+
+  .card.active {
+    height: 380px;
+    background-size: 150px;
+  }
+
+  .card1.active {
+    background-position: center 120px;
+  }
+
+  .card2.active {
+    background-position-y: 140px;
+  }
+
+  .card .card2-p {
+    bottom: 66px;
+  }
+
+  .card .card6-p {
+    bottom: 62px;
+  }
+
+  .card6 {
+    background-position: center;
+    padding-top: 20px;
+  }
+
+  .card6.active {
+    background-position-y: 150px;
+  }
+
+  .card7.active,
+  .card8.active {
+    background-position-y: 90px;
+  }
+
+  .card h3 {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .card p {
+    font-size: 11px;
+  }
+
+  .card.active a {
+    width: 88%;
+    font-size: 12px;
+  }
+
+  /* third-new-block */
+
+  /* third-block */
+  .third-block {
+    width: 100%;
+    height: 100%;
+  }
+
+  .we-offer {
+    margin-top: 0;
+  }
+
+  .all-offer {
+    width: 63%;
+  }
+
+  .offer2,
+  .offer1 {
+    height: 100%;
+  }
+
+  .text-offer1 {
+    margin-bottom: 100px;
+    margin-top: 35px;
+  }
+
+  .text-offer2 {
+    margin-top: 10px;
+  }
+
+  .header-offer2-span {
+    line-height: 40px;
+  }
+
+  /* third-block */
+
+
+  /* five-block */
+  .five-block {
+    width: 100%;
+    height: 1110px;
+  }
+
+  .header-five-block {
+    width: 90%;
+    margin: 75px 0 90px 0;
+  }
+
+  .header-five-block::after {
+    width: 90%;
+    position: relative;
+    margin: 20px auto;
+    left: 0;
+  }
+
+  .list-of-benefits {
+    width: 100%;
+    align-items: center;
+  }
+
+  .benefits {
+    width: 750px;
+  }
+
+  .item3-text3 {
+    width: 750px;
+  }
+
+  .text-item3-list {
+    width: 100%;
+    height: 100%;
+  }
+
+  .item4-text4 {
+    width: 750px;
+  }
+
+  .text-item4-list {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* five-block */
+
+  /* six-block */
+  .six-block {
+    width: 100%;
+  }
+
+  .header-six-block {
+    width: 60%;
+    margin-top: 20px;
+    border-bottom: 5px solid #E53862;
+  }
+
+  .header-six-block::after {
+    display: none;
+  }
+
+  .list-how-we-work {
+    width: 90%;
+  }
+
+  .text-item3-list {
+    width: 70%;
+    height: 70%;
+  }
+
+  .text-item4-list {
+    width: 70%;
+    height: 70%;
+  }
+
+  .lists {
+    margin: 0;
+  }
+
+  /* six-block */
+
+
+  /* seven-block */
+  .seven-block {
+    width: 100%;
+  }
+
+  /* seven-block */
+
+  /* eight-block */
+  .eight-block {
+    width: 100%;
+    height: 630px;
+  }
+
+  .header-eight-block {
+    width: 800px;
+  }
+
+  .text-header-eight-block::after {
+    display: none;
+  }
+
+  .item1-list-eight-block {
+    width: 50%;
+    margin-top: 30px;
+    border-right: 1px solid #E53862;
+  }
+
+
+
+  .item1-text1-eight-block {
+    width: 90%;
+    font-size: 20px;
+  }
+
+  .item2-list-eight-block {
+    width: 50%;
+    margin-top: 30px;
+    border-left: 1px solid #E53862;
+  }
+
+  .item2-text2-eight-block {
+    width: 90%;
+    font-size: 20px;
+  }
+
+  .item2-icon2-eight-block {
+    margin: 0 0 46px 0;
+  }
+
+  .item1-icon1 {
+    width: 150px;
+    height: 150px;
+    background-size: 80px;
+  }
+
+  .item2-icon2 {
+    width: 150px;
+    height: 150px;
+    background-size: 70px;
+  }
+
+  .item3-icon3 {
+    width: 150px;
+    height: 150px;
+    background-size: 120px;
+  }
+
+  .item4-icon4 {
+    width: 150px;
+    height: 150px;
+    background-size: 100px;
+  }
+
+  .all_text_block6 {
+    font-size: 22px;
+  }
+
+  /* eight-block */
+
+  /* nine-block */
+  .nine-block {
+    width: 100%;
+  }
+
+  .warning {
+    width: 90%;
+  }
+
+  /* nine-block */
+}

@@ -1,0 +1,633 @@
+@media screen and (max-width: 480px) {
+
+  body .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /* first block */
+
+  .header {
+    width: 100%;
+    height: 330px;
+    background-size: 578px;
+    background-position-x: 0px;
+    background-position-y: -25px;
+  }
+
+  .head-design {
+    height: 48px;
+    justify-content: space-between;
+  }
+
+  .logo-box {
+    display: block;
+  }
+
+  .logo {
+    width: 85px;
+    margin: -40px auto;
+  }
+
+  .design-right {
+    width: 170px;
+  }
+
+  .design-left {
+    width: 170px;
+  }
+
+  .logo1 {
+    display: none;
+  }
+
+  .logo-box {
+    margin-top: 45px;
+    margin-bottom: 62px;
+  }
+
+  .icons-car:hover {
+    width: 48px;
+  }
+
+  .first-name-site {
+    font-size: 11px;
+    margin: 0;
+    line-height: 2;
+    font-family: 'Montserrat-Thin';
+  }
+
+  .contacts {
+    font-family: 'Montserrat-Thin';
+  }
+
+  .numbers {
+    width: 66%;
+  }
+
+  .orests-number,
+  .tarases-number {
+    font-size: 11px;
+  }
+
+  .or,
+  .ta {
+    font-size: 11px;
+  }
+
+  .icons {
+    height: 180px;
+  }
+
+  .big-block-icons {
+    margin-top: 35px;
+  }
+
+  .block-icon-car1 {
+    height: 50px;
+    width: 10%;
+    margin: 3px;
+  }
+
+  .icons-car {
+    width: 35px;
+  }
+
+  /* first block */
+
+
+  /* second-block */
+
+  .second-block {
+    width: 100%;
+    height: 505px;
+  }
+
+  .price {
+    width: 270px;
+    height: 65px;
+    top: -10px;
+  }
+
+  .look-price,
+  .look-availability {
+    font-size: 11px;
+    padding: 0px;
+    line-height: 25px;
+  }
+
+  .sale {
+    width: 218px;
+    height: 80px;
+    margin-top: 68px;
+  }
+
+  .send-post,
+  .have-sale {
+    letter-spacing: 0em;
+    font-size: 11px;
+    padding: 0;
+    line-height: 25px;
+  }
+
+  .form-information {
+    width: 260px;
+    height: 320px;
+  }
+
+  .header-application {
+    width: 260px;
+  }
+
+  .text-application {
+    font-size: 9px;
+    letter-spacing: 0em;
+    padding: 5px;
+    width: 260px;
+    line-height: 16px;
+    padding: 10px 6px 5px 5px;
+  }
+
+  .data {
+    width: 260px;
+    height: 260px;
+  }
+
+  .name-of-the-spare-part {
+    width: 240px;
+    height: 65px;
+    border-radius: 10px;
+    font-size: 8px;
+  }
+
+  textarea[placeholder] {
+    font-size: 8px;
+    line-height: 13px;
+    padding: 10px 20px 10px 20px;
+  }
+
+  .vin-number,
+  .name-client,
+  .tel-number {
+    width: 240px;
+    height: 25px;
+    border-radius: 10px;
+    font-size: 8px;
+  }
+
+  input[placeholder] {
+    font-size: 8px;
+  }
+
+  .button-submit {
+    width: 240px;
+    height: 30px;
+    font-size: 8px;
+
+  }
+
+  /* second-block */
+
+
+  /* third-new-block */
+
+
+
+  .card.active a {
+    width: 85%;
+  }
+
+  .new_block_3_header {
+    font-size: 14px;
+  }
+
+  .new_block_3_header_span {
+    font-size: 10px;
+  }
+
+  .new_block_3_header::after {
+    height: 2px;
+  }
+
+  .transition {
+    height: 15%;
+  }
+
+  /* third-new-block */
+
+
+  /* third-block */
+
+  .third-block {
+    width: 100%;
+    height: 325px;
+  }
+
+  .all-offer {
+    width: 320px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .we-offer {
+    width: 300px;
+    line-height: 0px;
+    font-size: 20px;
+    margin-top: 40px;
+    height: 65px;
+  }
+
+  .offer {
+    font-size: 15px;
+  }
+
+  .offer::after {
+    width: 220px;
+    height: 2px;
+    left: 40px;
+    top: 23px;
+  }
+
+  .offer2 {
+    width: 295px;
+    height: 100%;
+    margin-bottom: 25px;
+  }
+
+
+  .header-offer1 {
+    line-height: 25px;
+    letter-spacing: 0em;
+    font-size: 18px;
+  }
+
+  .text-offer1 {
+    width: 280px;
+    line-height: 26px;
+    letter-spacing: 0em;
+    margin-bottom: 20px;
+  }
+
+  .header-offer2 {
+    font-size: 15px;
+    letter-spacing: 0em;
+    line-height: 28px;
+  }
+
+  .text-offer2 {
+    width: 294px;
+    line-height: 26px;
+    letter-spacing: -0.005em;
+    width: 288px;
+    font-size: 12px;
+  }
+
+  /* third-block */
+
+
+  /* five-block */
+
+  .five-block {
+    width: 100%;
+    height: 1300px;
+  }
+
+  .header-five-block {
+    width: 290px;
+    height: 90px;
+    margin: 35px 0 20px 0;
+  }
+
+  .seventeen-thousand-owners {
+    font-size: 15px;
+    line-height: 30px;
+  }
+
+  .header-five-block::after {
+    width: 240px;
+    height: 2px;
+    left: 0px;
+    top: -12px;
+  }
+
+  .list-of-benefits {
+    width: 320px;
+    height: 1100px;
+    margin-top: 30px;
+  }
+
+  .benefits {
+    width: 320px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .benefits-blok1 {
+    margin-bottom: 20px;
+  }
+
+  .benefits-blok2 {
+    margin-bottom: 10px;
+  }
+
+  .benefits-blok3 {
+    margin-bottom: -5px;
+  }
+
+  .benefits-blok4 {
+    margin-top: 10px;
+  }
+
+  .benefits-blok5 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  .benefits-blok6 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  .box-and-text {
+    width: 300px;
+  }
+
+  .three-years-text {
+    height: 90px;
+  }
+
+  .three-years-text-in-box {
+    width: 300px;
+    height: 65px;
+  }
+
+  .dandruff {
+    top: -60px;
+  }
+
+  .dandruff-text {
+    height: 80px;
+  }
+
+  .dandruff-span {
+    font-size: 9px;
+  }
+
+  .check-text {
+    height: 95px;
+  }
+
+  .check-span {
+    font-size: 9px;
+  }
+
+  .check {
+    top: -55px;
+  }
+
+  .person {
+    top: -50px;
+  }
+
+  .person-text {
+    height: 95px;
+  }
+
+  .person-span {
+    font-size: 9px;
+  }
+
+  .dollar {
+    top: -55px;
+  }
+
+  .dollar-text {
+    height: 85px;
+  }
+
+  .dollar-span {
+    font-size: 9px;
+  }
+
+  .benefits-blok7 {
+    height: 85px;
+  }
+
+  .honors {
+    top: -60px;
+  }
+
+  .honors-text {
+    height: 85px;
+  }
+
+  .honors-span {
+    font-size: 9px;
+  }
+
+  /* five-block */
+
+
+  /* six-block */
+  .six-block {
+    width: 100%;
+    height: 760px;
+  }
+
+  .header-six-block {
+    width: 300px;
+    height: 60px;
+    line-height: 60px;
+  }
+
+  .header-six-block-text {
+    font-size: 15px;
+  }
+
+  .header-six-block::after {
+    width: 240px;
+    left: 30px;
+    bottom: 22px;
+  }
+
+  .lists {
+    height: 160px;
+    margin-top: 10px;
+    padding: 0 8px;
+  }
+
+  .list-how-we-work {
+    width: 95%;
+  }
+
+  .item1-icon1,
+  .item2-icon2,
+  .item3-icon3,
+  .item4-icon4 {
+    width: 124px;
+    height: 124px;
+  }
+
+  .item1-icon1 {
+    background-size: 55px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .item2-icon2 {
+    background-size: 50px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .item3-icon3 {
+    background-size: 90px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .item4-icon4 {
+    background-size: 68px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .item1-text1,
+  .item2-text2 {
+    width: 58%;
+    height: 25%;
+  }
+
+  .item3-text3,
+  .item4-text4 {
+    width: 58%;
+    height: 100%;
+  }
+
+  .text-item1-list,
+  .text-item2-list,
+  .text-item4-list {
+    width: 100%;
+    height: 100%;
+    font-size: 10px;
+    line-height: 25px;
+    position: relative;
+    top: 0;
+  }
+
+  .text-item3-list {
+    height: 90%;
+    font-size: 10px;
+    line-height: 25px;
+  }
+
+  .text-item4-list {
+    height: 60%;
+  }
+
+  /* six-block */
+
+  /* seven-block */
+
+  .seven-block {
+    width: 100%;
+    height: 400px;
+  }
+
+  /* seven-block */
+
+
+  /* eight-block */
+
+  .eight-block {
+    width: 100%;
+    height: 400px;
+  }
+
+  .header-eight-block {
+    width: 300px;
+  }
+
+  .text-header-eight-block {
+    width: 300px;
+    font-size: 20px;
+  }
+
+  .header-eight-block::after {
+    width: 240px;
+    left: 30px;
+    bottom: 20px;
+  }
+
+  .list-eight-block {
+    width: 100%;
+    height: 330px;
+    margin-top: 0px;
+  }
+
+  .item1-list-eight-block {
+    height: 300px;
+    width: 50%;
+    margin-bottom: 25px;
+  }
+
+  .item1-icon1-eight-block,
+  .item2-icon2-eight-block {
+    width: 124px;
+    height: 124px;
+    background-size: 80px;
+  }
+
+  .item2-list-eight-block {
+    width: 50%;
+    height: 300px;
+  }
+
+  .item1-text1-eight-block,
+  .item2-text2-eight-block {
+    height: 22%;
+    width: 90%;
+  }
+
+  .text-item1-eight-block,
+  .text-item2-eight-block {
+    font-size: 12px;
+    padding: 0;
+  }
+
+  /* eight-block */
+
+
+
+  /* nine-block */
+
+  .nine-block {
+    width: 100%;
+    height: 335px;
+  }
+
+
+  .soliarevich {
+    width: 300px;
+    font-size: 10px;
+  }
+
+  .warning {
+    width: 300px;
+    height: 150px;
+    font-size: 10px;
+    margin-bottom: 0;
+  }
+
+  .icons-made {
+    width: 300px;
+    height: 50px;
+    margin-top: 10px;
+    font-size: 10px;
+  }
+
+  /* nine-block */
+}

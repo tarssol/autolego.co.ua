@@ -1,0 +1,266 @@
+@media screen and (max-width: 768px) {
+
+  body .container {
+    width: 96%;
+    margin: 0 auto;
+  }
+
+  /* first block */
+  .header,
+  .second-block,
+  .third-block,
+  .five-block,
+  .six-block,
+  .seven-block,
+  .eight-block,
+  .nine-block {
+    width: 100%;
+  }
+
+  .header {
+    height: 625px;
+    background-size: 1035px;
+    background-position-x: -95px;
+    background-position-y: -10px;
+  }
+
+  .design-right {
+    width: 150px;
+    height: 715px;
+    right: 0px;
+    top: 0px;
+  }
+
+  .design-left {
+    width: 150px;
+    height: 715px;
+    top: -85px;
+    left: -3px;
+  }
+
+  .head-design {
+    justify-content: space-between;
+  }
+
+  .logo-box {
+    margin-top: 45px;
+    margin-bottom: 82px;
+  }
+
+  .header-box-logo {
+    width: 20%;
+  }
+
+  .headers-site {
+    font-size: 16px;
+    width: 256px;
+    margin: 0 0 0 52px;
+  }
+
+  .first-name-site {
+    width: 260px;
+  }
+
+  .contacts {
+    width: 30%;
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 10px 0 0;
+    justify-content: end;
+  }
+
+  .number {
+    width: 57%;
+  }
+
+  .orests-number,
+  .tarases-number {
+    font-size: 13px;
+  }
+
+  .or,
+  .ta {
+    font-size: 13px;
+  }
+
+
+  .logo-box {
+    display: none;
+  }
+
+  .icons {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .big-block-icons {
+    margin-top: 115px;
+  }
+
+  .icons-car {
+    width: 55px;
+  }
+
+  .block-icon-car1 {
+    width: 9%;
+    margin: 7px;
+  }
+
+  /* first block */
+
+
+  /* second-block */
+
+  .second-block {
+    height: 810px;
+  }
+
+  .price {
+    width: 90%;
+    height: 118px;
+    top: -20px;
+  }
+
+  .look-price,
+  .look-availability,
+  .send-post,
+  .have-sale {
+    font-size: 18px;
+  }
+
+  .sale {
+    width: 80%;
+    margin-top: 130px;
+    height: 125px;
+  }
+
+  .form-information {
+    width: 360px;
+    height: 500px;
+    margin-top: 20px;
+  }
+
+  .header-application {
+    width: 100%;
+  }
+
+  .text-application {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .data {
+    width: 360px;
+    height: 405px;
+  }
+
+  /* second-block */
+
+
+  /* third-new-block */
+
+  .new_block_3 {
+    height: 585px;
+  }
+
+  .new_block_3_box1 {
+    width: 90%;
+  }
+
+  .new_block_3_header {
+    font-size: 24px;
+  }
+
+  .new_block_3_header_span {
+    font-size: 20px;
+  }
+
+  .assortment {
+    width: 98%;
+    margin-top: 10px;
+  }
+
+  .card {
+    margin: 5px;
+  }
+
+  .all-offer {
+    margin-bottom: 30px;
+  }
+
+  /* third-new-block */
+
+  /* third-block */
+
+  .third-block {
+    height: 100%;
+  }
+
+  .offer1,
+  .offer2 {
+    width: 45%;
+    height: 100%;
+    padding: 0 5px 0 5px;
+    margin: 0 10px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .offer2 {
+    justify-content: center;
+  }
+
+  /* third-block */
+
+  /* five-block */
+
+  .seventeen-thousand-owners {
+    font-size: 26px;
+  }
+
+  .header-five-block::after {
+    width: 80%;
+  }
+
+  .list-of-benefits {
+    width: 100%;
+  }
+
+  /* eight-block */
+
+  .text-header-eight-block::after {
+    left: 230px;
+  }
+
+  .text-item1-list,
+  .text-item2-list,
+  .text-item3-list,
+  .text-item4-list {
+    font-size: 20px;
+  }
+
+  .text-item4-list {
+    height: 62%;
+  }
+
+  .three-years-text-in-box {
+    height: 70px;
+  }
+
+  /* eight-block */
+
+  /* nine-block */
+
+  .nine-block {
+    width: 100%;
+  }
+
+  .warning {
+    margin-bottom: 40px;
+  }
+
+  /* nine-block */
+}
