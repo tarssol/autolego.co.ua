@@ -1,0 +1,180 @@
+/* START FIRST BLOCK */
+/* START Header */
+
+.header {
+  width: 100%;
+  height: 900px;
+  background-image: url(../img/pexels-cottonbro-4488656.jpg);
+  background-size: cover;
+  background-position: bottom;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* STOP Header */
+
+.head-design {
+  width: 100%;
+  height: 90px;
+  background-color: #111;
+  opacity: 80%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-box-logo {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.logo1 {
+  width: 130px;
+}
+
+.headers-site {
+  width: 33%;
+  margin: 0;
+}
+
+.first-name-site {
+  width: 320px;
+  height: 100%;
+  font-size: 26px;
+  text-align: center;
+  text-shadow: 0 0 2px #dddff5;
+  color: #dddff5;
+  font-family: "Montserrat-Black";
+}
+
+.logo-mobile1 {
+  display: none;
+}
+
+.contacts {
+  width: 33%;
+  height: 100%;
+  font-family: "OpenSans-Bold";
+  display: flex;
+  align-items: center;
+}
+
+.numbers {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.orests-number,
+.tarases-number {
+  color: #dddff5;
+  text-decoration: none;
+  margin: 8px 5px 0 0;
+  font-size: 18px;
+}
+
+.name {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+
+.or,
+.ta {
+  color: #dddff5;
+  margin: 8px 0 0 5px;
+  font-size: 18px;
+}
+
+.logo-box {
+  width: 205px;
+  margin: 10px auto;
+  z-index: 2;
+  animation-name: b;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes b {
+  from {
+    opacity: 0%;
+  }
+
+  to {
+    opacity: 100%;
+  }
+}
+
+.logo-mobile {
+  display: none;
+}
+
+
+.design-right {
+  width: 360px;
+  height: 1030px;
+  background-image: url(../img/header_design_right.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  background-size: cover;
+  right: 0px;
+  top: -5px;
+}
+
+.design-left {
+  width: 360px;
+  height: 1030px;
+  background-image: url(../img/header_design_right.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  background-size: cover;
+  left: 0px;
+  top: -125px;
+}
+
+.icons {
+  height: 500px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 200px;
+  position: relative;
+}
+
+.big-block-icons {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+
+.block-icon-car1 {
+  margin: 2px;
+}
+
+.block-icon-car1 {
+  width: 10%;
+  height: 100px;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons-car {
+  width: 80px;
+  transition: all 0.2s ease-in;
+}
+
+.icons-car:hover {
+  width: 100px;
+}

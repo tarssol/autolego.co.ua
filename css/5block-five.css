@@ -1,0 +1,296 @@
+/* START FIVE BLOCK */
+
+.five-block {
+  width: 100%;
+  height: 1161px;
+  background-color: #F2F6FF;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-top: 1px solid #222;
+}
+
+.header-five-block {
+  width: 814px;
+  height: 85px;
+  margin: 75px 0 132px 0;
+  text-align: center;
+  line-height: 78px;
+  font-family: "Montserrat-Medium";
+  font-size: 34px;
+  line-height: 45px;
+  letter-spacing: 0.005em;
+  position: relative;
+}
+
+.header-five-block::after {
+  content: '';
+  display: block;
+  height: 6px;
+  width: 780px;
+  background-color: #E53862;
+  position: absolute;
+  margin-top: 30px;
+  left: 22px;
+}
+
+/* list */
+
+.list-of-benefits {
+  width: 786px;
+  height: 786px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.benefits {
+  width: 786px;
+  height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.circle {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #BDC5FF;
+  position: relative;
+}
+
+.circle::after {
+  content: "";
+  display: block;
+  width: 52px;
+  height: 2px;
+  background-color: #E53862;
+  position: absolute;
+  left: 135px;
+  top: 45px;
+}
+
+.box-and-text {
+  width: 536px;
+  height: 90px;
+  background-color: #EFEDF9;
+  -webkit-box-shadow: 0px 10px 20px #998FCB;
+  box-shadow: 0px 10px 20px #998FCB;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.three-years,
+.fourteen-days {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.three-years-text-icon {
+  text-align: center;
+  color: #E53862;
+  font-family: 'Montserrat-Bold';
+  font-size: 18px;
+}
+
+.three-years-text-in-box {
+  width: 435px;
+  height: 50px;
+  font-family: 'Montserrat-Bold';
+  font-size: 16px;
+  text-align: center;
+  line-height: 25px;
+
+}
+
+.fourteen-days {
+  font-family: 'Montserrat-Bold';
+  color: #E53862;
+  font-family: 'Montserrat-Bold';
+  text-align: center;
+}
+
+.fourteen-days-in-box {
+  text-align: center;
+  width: 480px;
+  height: 40px;
+  font-size: 16px;
+  line-height: 25px;
+
+}
+
+.fourteen-days-text {
+  font-size: 16px;
+}
+
+.fourteen-days-text-in-box {
+  background-color: #E1DBE7;
+}
+
+
+.dandruff {
+  background-image: url(../img/magnifier.svg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.dandruff-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.text-in-dandruff-box {
+  width: 465px;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Montserrat-Bold';
+  line-height: 25px;
+}
+
+.dandruff-span {
+  font-family: 'Montserrat-Regular';
+  font-size: 14px;
+}
+
+
+.check {
+  background-image: url(../img/check-mark.svg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.check-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #E1DBE7;
+}
+
+.text-in-check-box {
+  width: 470px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 16px;
+  font-family: 'Montserrat-Bold';
+}
+
+.check-span {
+  font-family: 'Montserrat-Regular';
+  font-size: 14px;
+}
+
+
+.person {
+  background-image: url(../img/manager.svg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.text-in-person {
+  width: 500px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 16px;
+  font-family: 'Montserrat-Bold';
+}
+
+.person-span {
+  font-size: 14px;
+  font-family: 'Montserrat-Regular';
+}
+
+
+
+.dollar-text {
+  background-color: #E1DBE7;
+}
+
+.dollar {
+  background-image: url(../img/dollar-currency-symbol.svg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.text-in-dollar {
+  text-align: center;
+  line-height: 20px;
+  font-size: 16px;
+  font-family: 'Montserrat-Bold';
+}
+
+.dollar-span {
+  font-size: 14px;
+  font-family: 'Montserrat-Regular';
+}
+
+
+.honors {
+  background-image: url(../img/medal.svg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.text-in-hoors {
+  text-align: center;
+  line-height: 20px;
+  font-size: 16px;
+  font-family: 'Montserrat-Bold';
+}
+
+.honors-span {
+  font-size: 14px;
+  font-family: 'Montserrat-Regular';
+}
+
+/* STOP FIVE BLOCK */

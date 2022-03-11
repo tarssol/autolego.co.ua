@@ -1,0 +1,129 @@
+/* START EIGHT BLOCK */
+
+.eight-block {
+  width: 100%;
+  height: 650px;
+  background-color: #CFD3F4;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-top: 1px solid #222;
+}
+
+.header-eight-block {
+  width: 930px;
+  margin-top: 70px;
+  font-family: "Montserrat-Medium";
+  font-size: 34px;
+  text-align: center;
+  position: relative;
+}
+
+.list-eight-block {
+  display: flex;
+  margin-top: 50px;
+}
+
+.text-header-eight-block::after {
+  transform: rotate(90deg);
+  content: "";
+  display: block;
+  width: 400px;
+  height: 1px;
+  background-color: #E53862;
+  position: absolute;
+  bottom: -265px;
+  left: 280px;
+}
+
+.list-eight-block {
+  width: 80%;
+}
+
+.item1-list-eight-block {
+  width: 50%;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.item1-icon1-eight-block {
+  background-color: #6153FF;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url(../img/wallet.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 74%;
+  -webkit-box-shadow: 0px 20px 30px #998FCB;
+  box-shadow: 0px 20px 30px #998FCB;
+  margin-bottom: 46px;
+}
+
+.item1-text1-eight-block {
+  width: 90%;
+  height: 72px;
+  font-family: 'Montserrat-Bold';
+  font-size: 25px;
+  text-align: center;
+  color: #E53862;
+  line-height: 45px;
+}
+
+.item2-list-eight-block {
+  width: 50%;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.item2-icon2-eight-block {
+  background-color: #6153FF;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url(../img/smartphone.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 130px;
+  -webkit-box-shadow: 0px 20px 30px #998FCB;
+  box-shadow: 0px 20px 30px #998FCB;
+  margin: 0px 0 46px 0;
+}
+
+.item2-text2-eight-block {
+  width: 90%;
+  height: 72px;
+  font-family: 'Montserrat-Bold';
+  font-size: 25px;
+  text-align: center;
+  color: #E53862;
+  line-height: 45px;
+}
+
+/* STOP EIGHT BLOCK */

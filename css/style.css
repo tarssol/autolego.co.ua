@@ -1,0 +1,40 @@
+@import url(reset.css);
+@import url(fonts.css);
+@import url(1block-first-header.css);
+@import url(2block-second_and_form.css);
+@import url(new_3_block.css);
+@import url(3block-third.css);
+@import url(4block-four.css);
+@import url(5block-five.css);
+@import url(6block-six.css);
+@import url(7block-seven.css);
+@import url(8block-eight.css);
+@import url(9block-nine-footer.css);
+
+@import url(media/media1240.css);
+@import url(media/media960.css);
+@import url(media/media768.css);
+@import url(media/media660.css);
+@import url(media/media480.css);
+@import url(media/media320.css);
+
+/* START Body */
+
+body {
+  background-color: #261D37;
+}
+
+.container {
+  font-family: 'Montserrat-Bold';
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+.element-to-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* STOP Body */

@@ -1,0 +1,239 @@
+/* START SIX BLOCK */
+
+.six-block {
+  background-color: #CFD3F4;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-top: 1px solid #222;
+}
+
+.header-six-block {
+  width: 930px;
+  height: 110px;
+  text-align: center;
+  line-height: 110px;
+  font-family: "Montserrat-Medium";
+  font-size: 34px;
+  position: relative;
+  margin-top: 50px;
+}
+
+.header-six-block::after {
+  content: '';
+  display: block;
+  width: 664px;
+  height: 6px;
+  background-color: #E53862;
+  position: absolute;
+  left: 133px;
+  bottom: 0px;
+}
+
+.list-how-we-work {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.lists {
+  width: 750px;
+  height: 200px;
+  margin: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: end;
+  position: relative;
+}
+
+.list-how-we-work1,
+.list-how-we-work3 {
+  align-self: flex-end;
+}
+
+.list-how-we-work1,
+.list-how-we-work2,
+.list-how-we-work3 {
+  border-bottom: 1px solid #E53862;
+}
+
+.item1-text1,
+.item2-text2,
+.item3-text3,
+.item4-text4 {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.item1-icon1 {
+  background-color: #6153FF;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url(../img/document.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100px;
+  -webkit-box-shadow: 0px 20px 30px #998FCB;
+  box-shadow: 0px 20px 30px #998FCB;
+  position: absolute;
+  left: 0;
+  opacity: 1;
+  transition: all 3s ease;
+}
+
+
+.text-item1-list {
+  width: 532px;
+  font-family: 'Montserrat-Bold';
+  font-size: 25px;
+  text-align: center;
+  color: #E53862;
+  line-height: 45px;
+  opacity: 1;
+  transition: all 3s ease;
+}
+
+.item2-icon2 {
+  background-color: #6153FF;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url(../img/free-icon-smartphone-iphone-13398.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90px;
+  -webkit-box-shadow: 0px 20px 30px #998FCB;
+  box-shadow: 0px 20px 30px #998FCB;
+  position: absolute;
+  left: 0;
+  opacity: 1;
+  transition: all 3s ease;
+}
+
+.text-item2-list {
+  width: 532px;
+  font-family: 'Montserrat-Bold';
+  font-size: 25px;
+  text-align: center;
+  color: #E53862;
+  line-height: 45px;
+  opacity: 1;
+  transition: all 3s ease;
+}
+
+.item3-icon3 {
+  background-color: #6153FF;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url(../img/logistics-delivery-truck-in-movement.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 155px;
+  -webkit-box-shadow: 0px 20px 30px #998FCB;
+  box-shadow: 0px 20px 30px #998FCB;
+  position: absolute;
+  left: 0;
+  opacity: 1;
+  transition: all 3s ease;
+}
+
+.text-item3-list {
+  width: 532px;
+  font-family: 'Montserrat-Bold';
+  font-size: 25px;
+  text-align: center;
+  color: #E53862;
+  line-height: 38px;
+  opacity: 1;
+  transition: all 3s ease;
+}
+
+.item4-icon4 {
+  background-color: #6153FF;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url(../img/ok.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 115px;
+  -webkit-box-shadow: 0px 20px 30px #998FCB;
+  box-shadow: 0px 20px 30px #998FCB;
+  position: absolute;
+  left: 0;
+  opacity: 1;
+  transition: all 3s ease;
+}
+
+.text-item4-list {
+  width: 532px;
+  height: 50%;
+  font-family: 'Montserrat-Bold';
+  font-size: 25px;
+  text-align: center;
+  color: #E53862;
+  line-height: 45px;
+  opacity: 1;
+  transition: all 3s ease;
+}
+
+/* .right-icon_active {
+  transform: translate(0px, 0px);
+  opacity: 1;
+  right: 545px;
+}
+
+.right-icon_active_min1_size {
+  transform: translate(0px, 0px);
+  opacity: 1;
+  right: 545px;
+}
+
+.left-icon_active {
+  transform: translate(0px, 0px);
+  opacity: 1;
+  left: 0px;
+}
+
+.left-icon_active_min1_size {
+  transform: translate(0px, 0px);
+  opacity: 1;
+  left: 0px;
+}
+
+.all_text_block6 {
+  opacity: 1;
+}
+
+
+.all_text_block2 {
+  opacity: 1;
+}
+
+
+.all_text_block3 {
+  opacity: 1;
+}
+
+
+.all_text_block4 {
+  opacity: 1;
+} */
+
+
+
+/* STOP SIX BLOCK */
